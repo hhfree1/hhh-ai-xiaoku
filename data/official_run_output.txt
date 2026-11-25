@@ -1,0 +1,11 @@
+epoch=300, loss=0.0279
+x1 x2 | target | hidden (h1, h2) | probability | predicted
+0  0  |   0    |    (0.030, 0.030)    |    0.0287    |     0
+0  1  |   1    |    (0.000, 0.935)    |    0.9745    |     1
+1  0  |   1    |    (0.935, 0.000)    |    0.9745    |     1
+1  1  |   0    |    (0.034, 0.034)    |    0.0305    |     0
+All four XOR samples classified correctly.
+
+real	0m7.310s
+user	0m0.015s
+sys	0m0.046s
